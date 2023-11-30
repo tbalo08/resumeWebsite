@@ -1,0 +1,248 @@
+body {
+    margin: 0;
+}
+.title {
+    position: absolute;
+    top: 35%;
+    left: 15%;
+    font-size: larger;
+
+}
+.title > p {
+    font-size: larger;
+}
+span {
+    font-size: 70px;
+}
+#nav {
+    color: #AC7088;
+    margin-left: 15%;
+    
+
+}
+#logo {
+    display: inline;
+    padding: 30px 0px 30px;
+    margin-left: 5%;
+    animation: logo 4s ease-in-out 0s infinite ;
+}
+@keyframes logo {
+    from {transform: rotate(0deg);}
+    to{transform: rotate(360deg);}
+}
+#logo:hover {
+    animation: none;
+}
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    
+    
+    height: 10vh;
+    background-color: black;
+    
+}
+
+a { 
+    color: white;
+    display:inline-block; 
+    padding: 30px;
+    text-decoration: none;
+}
+.socials {
+    margin-left: 25%;
+    
+}
+.icons {
+    padding: 10px;
+    display: inline-block;
+}
+.navlinks:after {
+    display:block;
+    content: '';
+    border-bottom: solid 3px saddlebrown;  
+    transform: scaleX(0);  
+    transition: transform 250ms ease-in-out;
+}
+.navlinks:hover:after { transform: scaleX(1); }
+.navlinks.fromLeft:after{  transform-origin:  0% 50%; }
+
+
+.image1 {
+    position: absolute;
+    top: 30vh;
+    left: 62.25%;
+    height: 70vh;
+    border-radius: 20px;
+    
+}
+.image2 {
+    opacity: 0.6;
+}
+.overlay {
+    height: 70vh;
+    width: 24vw;
+    background-color: #AC7088;
+    position: relative;
+    top: 13vh;
+    left: 58.25%;
+    z-index: -1;
+    border-radius: 20px;
+}
+.overlay1 {
+    height: 70vh;
+    width: 24vw;
+    position: absolute;
+    top: 18vh;
+    left: 54.9%;
+    border: 2px solid cadetblue;
+    z-index: -2;
+    border-radius: 20px;
+}
+.head {
+    color: white;
+}
+
+.link {
+    height: 7vh;
+    width: 12vw;
+    border-radius: 20px;
+    background-color: rgba(0, 0, 0, 0.9);
+    color: white;
+}
+.link:hover {
+    border: 4px solid wheat;
+}
+
+.bottom {
+    margin-bottom: 500px;
+}
+
+.volunteering {
+    position: relative;
+    top: 18vw;
+    margin-left: 18vw 10vw;
+    padding: 2vw;
+    background-color: rgba(0, 0, 0, 0.9);
+    border-radius: 20px;
+    display: flex;
+}
+
+.image2 {
+    border-radius: 30px;
+    border: 3px solid wheat;
+    filter: grayscale(30%);
+}
+.section, .image2 {
+    display: inline-block;
+    margin: 10px;
+
+}
+.section {
+    padding: 20px;
+    color: whitesmoke;
+    line-height: 35px;
+}
+.sectiontitle {
+    text-transform: uppercase;
+}
+.sectionlink {
+    position: relative;
+    top: 2vw;
+    left: 17vw;
+}
+.hobbies {
+    position: relative;
+    top: 25vw;
+    margin-left: 3vw;
+    padding: 2vw;
+    
+    display: flex;
+    align-items: center;
+    border: 6px double black;
+    
+}
+.image3 {
+    position: relative;
+    left: 9vw;
+    margin: 0;
+    opacity: 0.7;
+}
+.section2 {
+    display: inline-block;
+    font-size: 30px;
+    position: relative;
+    left: 9vw;
+}
+.container {
+    position: relative;
+    max-width: 800px; /* Maximum width */
+    margin: 0 auto; /* Center it */
+  }
+  
+  .container .content {
+    position: absolute; /* Position the background text */
+    left: 9vw;
+    bottom: 16.25vw; /* At the bottom. Use top:0 to append it to the top */
+    background: rgb(0, 0, 0); /* Fallback color */
+    background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+    color: #f1f1f1; /* Grey text */
+    width: 35.75vw; /* Full width */
+    padding: 20px; /* Some padding */
+  }
+  .Contact {
+    position: relative;
+    top: 30vw;
+  }
+  .image4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .form {
+    margin: 20px;
+  }
+  body {
+    background-color: #dfdef7;
+  }
+  
+  input[type=text], input[type=email], textarea {
+    border: 2px solid black;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80vw;
+    height: 7vh;
+  }
+  select {
+    border: 2px solid black;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80vw;
+    height: 7vh;
+  }
+  
+  form {
+    background-color: rgb(224, 211, 211);
+    padding: 20px;
+    border: 6px double black;
+    border-radius: 25px;
+    
+    margin: 20px;
+  }
+  
+  .button {
+    border: 2px solid black;
+    background-color: #54BAB9;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80vw;
+    height: 7vh;
+  }
+  
